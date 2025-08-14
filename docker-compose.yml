@@ -61,6 +61,30 @@ services:
     volumes:
       - db-data:/var/lib/mysql
 
+networks:
+  mrs:
+  caddy-shared:
+    external: true
+services:
+  gateway:
+    ...
+    networks:
+      - mrs
+      - caddy-shared
+  frontend:
+    ...
+    networks:
+      - mrs
+  backend:
+    ...
+    networks:
+      - mrs
+  db:
+    ...
+    networks:
+      - mrs
+
+
 volumes:
   openmrs-data: ~
   db-data: ~

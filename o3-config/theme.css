@@ -1,0 +1,26 @@
+/* Hide bundled logos (header + login) */
+header img[alt*="OpenMRS"],
+img[alt*="OpenMRS"],
+img[alt="OpenMRS logo"],
+img[alt="OpenMRS Logo"] {
+  display: none !important;
+}
+
+/* Header brand area: inject your logo */
+header a, header [role="banner"] a {
+  display: inline-block;
+  width: 160px;
+  height: 32px;
+  background: url("/openmrs/spa/impl/logo.svg?v=3") no-repeat left center / contain;
+}
+
+/* Login page: show your logo at the top */
+body [class*="login"] [class*="logo"],
+body [class*="auth"]  [class*="logo"] {
+  display:block;
+  width: 180px;
+  height: 40px;
+  margin: 0 auto 12px;
+  background: url("/openmrs/spa/impl/logo.svg?v=3") no-repeat center / contain;
+}
+

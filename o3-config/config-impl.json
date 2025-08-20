@@ -1,0 +1,8 @@
+{
+  "branding": {
+    "applicationName": "LUMINA",
+    "logo": "/openmrs/spa/impl/logo.svg"
+  },
+  "styleUrls": ["/openmrs/spa/impl/theme.css?v=3"]
+}
+

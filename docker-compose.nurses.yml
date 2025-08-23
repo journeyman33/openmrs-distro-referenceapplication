@@ -1,0 +1,7 @@
+services:
+  frontend:
+    volumes:
+      - ./o3-config/importmap.nurses.json:/usr/share/nginx/html/importmap.json:ro
+      - ./o3-config/config.nurses.json:/usr/share/nginx/html/config.json:ro
+      - ./o3-config/logo.svg:/usr/share/nginx/html/logo.svg:ro
+

@@ -1,0 +1,34 @@
+{
+  "imports": {
+    "@openmrs/esm-login-app": "./openmrs-esm-login-app-7.0.1-pre.3259/openmrs-esm-login-app.js",
+    "@openmrs/esm-primary-navigation-app": "./openmrs-esm-primary-navigation-app-7.0.1-pre.3259/openmrs-esm-primary-navigation-app.js",
+    "@openmrs/esm-home-app": "./openmrs-esm-home-app-9.0.1-pre.6388/openmrs-esm-home-app.js",
+
+    "@openmrs/esm-patient-search-app": "./openmrs-esm-patient-search-app-9.0.1-pre.6388/openmrs-esm-patient-search-app.js",
+    "@openmrs/esm-patient-registration-app": "./openmrs-esm-patient-registration-app-9.0.1-pre.6388/openmrs-esm-patient-registration-app.js",
+
+    "@openmrs/esm-patient-chart-app": "./openmrs-esm-patient-chart-app-11.1.1-pre.8533/openmrs-esm-patient-chart-app.js",
+    "@openmrs/esm-patient-banner-app": "./openmrs-esm-patient-banner-app-11.1.1-pre.8533/openmrs-esm-patient-banner-app.js",
+    "@openmrs/esm-generic-patient-widgets-app": "./openmrs-esm-generic-patient-widgets-app-11.1.1-pre.8533/openmrs-esm-generic-patient-widgets-app.js",
+
+    "@openmrs/esm-patient-vitals-app": "./openmrs-esm-patient-vitals-app-11.1.1-pre.8533/openmrs-esm-patient-vitals-app.js",
+    "@openmrs/esm-patient-medications-app": "./openmrs-esm-patient-medications-app-11.1.1-pre.8533/openmrs-esm-patient-medications-app.js",
+    "@openmrs/esm-patient-notes-app": "./openmrs-esm-patient-notes-app-11.1.1-pre.8533/openmrs-esm-patient-notes-app.js",
+    "@openmrs/esm-patient-allergies-app": "./openmrs-esm-patient-allergies-app-11.1.1-pre.8533/openmrs-esm-patient-allergies-app.js",
+    "@openmrs/esm-patient-conditions-app": "./openmrs-esm-patient-conditions-app-11.1.1-pre.8533/openmrs-esm-patient-conditions-app.js",
+    "@openmrs/esm-patient-immunizations-app": "./openmrs-esm-patient-immunizations-app-11.1.1-pre.8533/openmrs-esm-patient-immunizations-app.js",
+    "@openmrs/esm-patient-tests-app": "./openmrs-esm-patient-tests-app-11.1.1-pre.8533/openmrs-esm-patient-tests-app.js",
+    "@openmrs/esm-patient-attachments-app": "./openmrs-esm-patient-attachments-app-11.1.1-pre.8533/openmrs-esm-patient-attachments-app.js",
+    "@openmrs/esm-patient-forms-app": "./openmrs-esm-patient-forms-app-11.1.1-pre.8533/openmrs-esm-patient-forms-app.js",
+    "@openmrs/esm-form-engine-app": "./openmrs-esm-form-engine-app-11.1.1-pre.8533/openmrs-esm-form-engine-app.js",
+
+    "@openmrs/esm-active-visits-app": "./openmrs-esm-active-visits-app-9.0.1-pre.6388/openmrs-esm-active-visits-app.js",
+    "@openmrs/esm-patient-lists-app": "./openmrs-esm-patient-lists-app-11.1.1-pre.8533/openmrs-esm-patient-lists-app.js",
+
+    "@openmrs/esm-appointments-app": "./openmrs-esm-appointments-app-9.0.1-pre.6388/openmrs-esm-appointments-app.js",
+    "@openmrs/esm-service-queues-app": "./openmrs-esm-service-queues-app-9.0.1-pre.6388/openmrs-esm-service-queues-app.js",
+
+    "config-file": "/openmrs/spa/config.json"
+  }
+}
+

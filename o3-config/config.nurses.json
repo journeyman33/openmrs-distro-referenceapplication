@@ -1,0 +1,46 @@
+{
+  "@openmrs/esm-login-app": {
+    "logo": { "src": "${openmrsSpaBase}/logo.svg", "alt": "Nurse EMR" },
+    "showLocationPicker": true
+  },
+
+  "@openmrs/esm-primary-navigation-app": {
+    "logo": { "src": "${openmrsSpaBase}/logo.svg", "alt": "Nurse EMR" }
+  },
+
+  "@openmrs/esm-home-app": {
+    "defaultActions": [
+      "find-patient",
+      "todays-appointments",
+      "active-visits",
+      "patient-lists"
+    ]
+  },
+
+  "@openmrs/esm-patient-chart-app": {
+    "extensionSlots": {
+      "patient-chart-dashboard-slot": {
+        "add": ["nav-group#Nursing"],
+        "configure": {
+          "nav-group#Nursing": {
+            "title": "Nursing",
+            "slotName": "nursing-group-slot"
+          }
+        }
+      },
+      "nursing-group-slot": {
+        "add": [
+          "dashboard#Vitals",
+          "dashboard#Medications",
+          "dashboard#Notes",
+          "dashboard#Allergies",
+          "dashboard#Conditions",
+          "dashboard#Immunizations",
+          "dashboard#LabsAndTests",
+          "dashboard#Attachments"
+        ]
+      }
+    }
+  }
+}
+
